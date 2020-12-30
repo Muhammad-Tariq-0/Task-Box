@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Timer from './components/Timer/Timer';
+//--------------------imported from Bit---------------
+import TaskApp from '@bit/muhammadtariq.taskappfulltemplate.task-app';
 
 function App() {
   return (
     <div className="App">
-      <Timer/>
+      <TaskApp/>
     </div>
   );
 }
